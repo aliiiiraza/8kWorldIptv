@@ -334,6 +334,10 @@
   <button class="btn">Get Free Trial</button>
 </a>
 
+<a href="#reviews">
+  <button class="btn" style="margin-left: 10px;">View Reviews</button>
+</a>
+
       
       <div class="stats">
         <div>75K+ Customers</div>
@@ -548,11 +552,24 @@
     <div class="card">
       <h3>⭐⭐⭐⭐⭐</h3>
       <p>
-        “I switched from another provider and this one is far better. Worth every penny.”
+        “If anyone is looking for a reliable IPTV provider, check out 8K World IPTV 👀
+Massive VOD library + premium channels + great support.”
       </p>
       <br>
       <p><b>- Sara </b></p>
     </div>
+
+<div class="card">
+      <h3>⭐⭐⭐⭐⭐</h3>
+      <p>
+        “The sports channels on 8K World IPTV are next level ⚽🏏🔥
+No lag, HD quality, and setup was super easy.”
+      </p>
+      <br>
+      <p><b>- Jane </b></p>
+    </div>
+
+
 
   </div>
 </section>
@@ -573,6 +590,12 @@
   const toggleBtn = document.getElementById('menu-toggle');
   const navLinks = document.getElementById('nav-links');
 
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+  </body>
+</html>
   toggleBtn.addEventListener('click', () => {
     navLinks.classList.toggle('show');
   });
